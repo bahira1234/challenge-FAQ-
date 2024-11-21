@@ -1,0 +1,69 @@
+.container {
+    width: 100%;
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.purple {
+    width: 100%;
+    height: 17rem;
+    background-color: #301534;
+    position: relative;
+}
+
+.faq {
+    width: 37%;
+    text-align: center;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    top: 150px;
+    right: 380px;
+    padding: 0 15px;
+}
+
+.que p,
+.que #minus {
+    display: none;
+    text-align: left;
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+i {
+    cursor: pointer;
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #7b2c87;
+    color: #fff;
+}
+
+h5 {
+    font-size: 18px;
+    color: #523d55;
+}
+
+.header h1 {
+    color: #523d55;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 15px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 0 18px;
+}
+
+.minus {
+    cursor: pointer;
+}
